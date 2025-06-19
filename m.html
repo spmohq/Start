@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reusable Questionnaire Template</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .question {
+      margin-bottom: 25px;
+    }
+
+    .question-number {
+      font-weight: bold;
+      color: #2980b9;
+    }
+
+    .question-title {
+      margin: 8px 0;
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .question-title {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Reusable Questionnaire Template</h1>
+
+    <div class="question">
+      <div class="question-number">1. Feature Overview:</div>
+      <div class="question-title">
+        Give me a bullet list of all the features of <strong>[App Name]</strong>, along with the uses of each feature.
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-number">2. Prospective Buyers Research:</div>
+      <div class="question-title">
+        Who are the 10 best prospective buyers of the <strong>[Feature Name]</strong> feature of <strong>[App Name]</strong> that I can find on Google My Business, and what specific outputs or benefits can they get from using this feature?
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-number">3. Use Case Execution:</div>
+      <div class="question-title">
+        How can a <strong>[Type of End User]</strong> create or build <strong>[Target Output]</strong> using the <strong>[Feature Name]</strong> feature of <em>[App Name]</em>?
+      </div>
+    </div>
+  </div>
+</body>
+</html>
